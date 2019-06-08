@@ -7,7 +7,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 @NoArgsConstructor
-public class PizzaBuilder {
+public class PizzaBuilder implements PizzaInterface {
     private String name;
     private Set<Ingredients> ingredients = new HashSet<Ingredients>();
     private int spiciness;
